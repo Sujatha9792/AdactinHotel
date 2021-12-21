@@ -15,6 +15,7 @@ public class LoginPage {
 	WebDriver driver;
 	//Select select = new Select(null);
 	Select select;
+
 	
 	@Given("User is on the Adactin page")
 	public void user_is_on_the_Adactin_page() {
@@ -23,6 +24,7 @@ public class LoginPage {
 		driver = new ChromeDriver();
 		driver.get("https://adactinhotelapp.com/");
 		driver.manage().window().maximize();
+		System.out.println("Sujatha");
 
 	}
 
